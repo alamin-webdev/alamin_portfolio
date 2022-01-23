@@ -648,6 +648,9 @@ textarea.form-control {
 /* contact style end  */
 
 /* footer style start  */
+footer .container{
+    border: none;
+}
 .footer_area .footer_img{
     display: grid;
     justify-content: center;
