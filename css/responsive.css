@@ -251,9 +251,17 @@
     }
     .slick-next {
         right: 0 !important;
+
+        position: absolute !important;
+    left: unset !important;
+    bottom: unset !important;
     }
     .slick-prev {
         left: 0 !important;
+        position: absolute !important;
+    left: unset !important;
+    top: 50% !important;
+    z-index: unset;
     }
 
     /* .carousel {
