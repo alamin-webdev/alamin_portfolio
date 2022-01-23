@@ -1,0 +1,166 @@
+.flex {
+    display: flex;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+.space_around{
+    justify-content: space-around;
+}
+
+
+.text_success {
+    color: rgb(10, 153, 10);
+}
+.text_yellow{
+    color: #f2ed01;
+}
+
+.text_light {
+    color: white;
+}
+.text_dark_light {
+    color: rgb(218, 218, 218);
+}
+.text_ash{
+    color: rgb(168, 168, 168);
+}
+.text_dark {
+    color: rgb(12, 12, 12);
+}
+
+.text_center {
+    text-align: center;
+}
+.text_capitalize{
+text-transform: capitalize;
+}
+.text_uppercase{
+text-transform: uppercase;
+}
+.title{
+    font-size: 70px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 62px;
+}
+
+.card {
+    padding: 30px;
+    margin: 7px 15px 104px 25px;
+    box-shadow: 4px 4px 19px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card_image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.middle {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.col-1 {
+    grid-column: span 1;
+
+}
+
+.col-2 {
+    grid-column: span 2;
+
+}
+
+.col-3 {
+    grid-column: span 3;
+
+}
+
+.col-4 {
+    grid-column: span 4;
+
+}
+
+.col-5 {
+    grid-column: span 5;
+
+}
+
+.col-6 {
+    grid-column: span 6;
+
+}
+
+.col-7 {
+    grid-column: span 7;
+
+}
+
+.col-8 {
+    grid-column: span 8;
+
+}
+
+.col-9 {
+    grid-column: span 9;
+
+}
+
+.col-10 {
+    grid-column: span 10;
+
+}
+
+.col-11 {
+    grid-column: span 11;
+
+}
+
+.col-12 {
+    grid-column: span 12;
+
+}
