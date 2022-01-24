@@ -149,8 +149,8 @@
 
     .header_photo {
         width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 50px 0;
+       
     }
 
 
@@ -308,6 +308,243 @@
     }
 
     .footer_area p {
-        font-size: 11px;
+        font-size: 10px;
     }
 }
+
+/* for table */
+@media only screen and (min-width: 768px) and (max-width: 1080px){
+    .row {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    
+    .col-md-1 {
+        grid-column: span 1;
+
+    }
+    .col-md-2 {
+        grid-column: span 2;
+
+    }
+    .col-md-3 {
+        grid-column: span 3;
+
+    }
+    .col-md-4 {
+        grid-column: span 4;
+
+    }
+    .col-md-5 {
+        grid-column: span 5;
+
+    }
+    .col-md-6 {
+        grid-column: span 6;
+
+    }
+    .col-md-7 {
+        grid-column: span 7;
+
+    }
+    .col-md-8 {
+        grid-column: span 8;
+
+    }
+    .col-md-9 {
+        grid-column: span 9;
+
+    }
+    .col-md-10 {
+        grid-column: span 10;
+
+    }
+    .col-md-11 {
+        grid-column: span 11;
+
+    }
+    .col-md-12 {
+        grid-column: span 12;
+
+    }
+    header nav {
+        position: fixed;
+        width: 100%;
+        background: #191b1e;
+    }
+    .navbar {
+        width: unset;
+    }
+    .nav_link {
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 11px;
+        line-height: 40px;
+      }
+      
+    .logo img {
+        width: 100%;
+      }
+
+      /* header content  */
+      .header_content .my_info h1 {
+        font-size: 41px;
+      }
+      .text_animate{
+        align-items: baseline;
+      }
+      .animate_txt li {
+        font-size: 32px;
+      }
+      .fixed_txt {
+        font-size: 40px;
+      }
+      .header_content .my_info p {
+        font-size: 14px;
+      }
+      .header_photo {
+        padding:unset;
+        width: 111%;
+      }
+
+
+      /* resume section  */
+      .resumeNav {
+        position: relative;
+        width: unset;
+        background-color: #1e2024;
+        height: unset;
+        flex-direction: column;
+        padding: unset;
+        border-radius: 10px;
+    }
+
+    .resumeNav .nav_item .active {
+        box-shadow: unset;
+    }
+    .resume_content_title {
+        font-size: 28px;
+    }
+    h2.card_title.text_dark_light {
+        font-size: 20px;
+    }
+    small.text_ash {
+        font-size: 11px;
+    }
+    .resume_content_rating {
+        font-size: small;
+        width: 64px;
+        box-shadow: 0px 0px 3px black;
+        float: unset;
+        text-align: center;
+    }
+    .card_body .card_text {
+        text-align: unset;
+    }
+
+
+    /* .testimonial_content */
+    .testimonial_content {
+        padding-bottom: 77px;
+    }
+
+    .comment_head {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .client_profile {
+        margin: 85px 0 162px 0;
+    }
+    .client_profile .client_company {
+        font-size: 8px;
+    }
+    .client_profile .client_name {
+        font-size: 17px;
+    }
+    .client_comment{
+        margin: 85px 0 162px 29px;
+    }
+    .client_comment::before {
+        display: none;
+    }
+    .comment_title {
+        line-height: 2;
+        font-size: 17px;
+    }
+    p.text_ash.text_capitalize {
+        padding-bottom: 50px;
+        font-size: 10px;
+    }
+    
+    .client_rating {
+        float: left;
+        margin-top: -38px;
+        font-size: 7px;
+        box-shadow: 0px 0px 20px #0c0d0e;
+        letter-spacing: 2px;
+    }
+
+    p.comment_text.text_dark_light {
+        font-size: 13px;
+        text-align: start;
+    }
+    .slick-next {
+        right: 0 !important;
+
+        position: absolute !important;
+    left: unset !important;
+    bottom: unset !important;
+    }
+    .slick-prev {
+        left: 0 !important;
+        position: absolute !important;
+    left: unset !important;
+    top: 50% !important;
+    z-index: unset;
+    }
+
+    .carousel {
+        padding: 50px 50px 0px 50px;
+    }
+
+    /* contact section  */
+    .contact_text {
+        font-size: 13px;
+    }
+    #contact .my_img {
+        width: 43%;
+        height: 43%;
+    }
+    .my_info .my_name {
+        font-size: 20px;
+    }
+    .contact_form {
+        margin: 0px 0px 100px 26px;
+    }
+
+
+}
+
+
+
+
+
+
+/* for desktop 
+@media only screen and (min-width: 1290px){
+    .slick-prev {
+        position: absolute !important;
+    left: 87% !important;
+    top: 107px !important;
+    z-index: 55;
+    margin-top: -14%;
+    }
+    .slick-next {
+        position: absolute !important;
+        left: 91% !important;
+        margin-top: -14%;
+    }
+    
+    
+} */
